@@ -7,7 +7,7 @@
       <p>Your request: <%= trip.description %></p>
       <p>Status: <%= trip.status %></p>
       <p>Want to sail from <%= trip.check_in_date %> till <%= trip.check_out_date %> </p>
-      <%= link_to "boat details", boat_path(trip.boat) %>
+      <%= link_to "Boat details", boat_path(trip.boat) %>
     <% end %>
   </div>
 </div>
